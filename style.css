@@ -1,0 +1,1642 @@
+body{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+}
+
+.coverOne{
+width: 1440px;
+height: 1024px;
+margin-top: -18px;
+margin-bottom: -18px;
+}
+
+.coverTwo{
+  width: 1440px;
+  height: 1024px;
+  margin-top: -18px;
+  margin-bottom: -18px;
+}
+
+.coverThree{
+  width: 1440px;
+  height: 1024px;
+  margin-top: -18px;
+  margin-bottom: -18px;
+}
+
+.coverFour{
+  width: 1440px;
+  height: 1024px;
+  margin-top: -18px;
+  margin-bottom: -18px;
+}
+
+.logo{
+width: 65px;
+height: 65px;
+margin-top: 4px;
+}
+
+hr{
+    width: 300px;
+    display: flex;
+    margin-left: 70px;
+    margin-right: -390px;
+    height: 0;
+    margin-top: 30px;
+    border: solid rgba(255, 255, 255, 0.24);
+    border-width: thin;
+    z-index: 1;
+    transition: width 0.5s ease-in-out;
+    }
+
+.dynamic-hr{
+width: 600px;
+}
+
+nav{
+margin-top: -950px;
+margin-left: 50px;
+display: flex;
+}
+
+.hamburger-menu, .close-button{
+display: none;
+}
+
+
+.grid-container{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 16px;
+margin-top: 50px;
+margin-left: 60px;
+}
+
+nav ul{
+background-color:rgba(255, 255, 255, 0.068);
+backdrop-filter: blur(30px);
+height:90px;
+align-items: center;
+width: 900px;
+margin-left:350px;
+list-style-type: none;
+margin-top: -18px;
+border: 1px solid black;
+}
+
+.home{
+text-align: center;
+}
+
+.tech{
+text-align: center;
+margin-left: -30px;
+width: 130px;
+}
+
+.destination{
+text-align: center;
+margin-left: -30px;
+width: 130px;
+}
+
+.crew{
+text-align: center;
+}
+
+
+.mode {
+  border-bottom: 4px solid transparent; /* Default
+  transparent border */
+  height: 40px; /* Initial height */
+  width: fit-content;
+  display: inline-block;
+  transition:
+    border-bottom 0.8s ease-in-out,
+    height 0.8s ease-in-out,
+    width 0.8s ease-in-out; /* Smooth transitions */
+}
+
+.mode:hover{
+    border-bottom: 2px solid rgba(245, 245, 245, 0.418);
+    height: 40px;
+
+}
+
+li{
+width: 100%;
+margin-top: -13px;
+}
+
+.selected{
+border-bottom: 2px solid whitesmoke;
+height: 40px;
+width: fit-content;
+display: inline-block;
+}
+
+
+a{
+text-decoration: none;
+color: white;
+font-size: 16px;
+letter-spacing: 2px;
+font-weight: 100;
+font-family:barlow condensed, sans-serif ;
+}
+
+.selected a{
+display: inline-block;
+}
+
+.number{
+margin-right: 5px;
+font-weight: 600;
+}
+
+#firstSection{
+padding: 288px 150px;
+color: whitesmoke;
+}
+
+#textTwo{
+    font-size: 28px;
+    letter-spacing: 4px;
+    font-weight: 200;
+    text-transform: uppercase;
+font-family:barlow condensed ;
+}
+
+#textOne{
+    margin-top: -5px;
+    font-size: 144px;
+        font-family: Bellefair, serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+#textThree{
+line-height: 180%;
+letter-spacing: 0;
+font-size: 18px;
+font-family: Barlow, sans-serif;
+font-weight: 400;
+font-style: normal;
+margin-top: -100px;
+}
+
+
+
+/* Button styling */
+#explore {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-family: Bellefair, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    color: #0b0d17;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    background-color: whitesmoke;
+    cursor: pointer;
+    transition: filter 0.2s ease; /* Smooth blur transition */
+  }
+
+  /* Container styling */
+  .explore {
+    margin-top: -350px;
+    width: 272px;
+    height: 272px;
+    margin-left: 800px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ /* Hover effect */
+.explore:hover::before {
+    content: "";
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.062);
+    z-index: 1;
+    transition: all 0.2s ease-in-out; /* Slow easing-in effect for the circle only */
+  }
+
+  /* Initial state for the circle (no hover) */
+  .explore::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.062);
+    z-index: 1;
+    transition: all 0.9s ease-in-out; /* Matches hover effect */
+  }
+
+  /* Ensure button content remains on top */
+  .explore:hover #explore {
+    filter: blur(1px); /* Adds a blur effect to the button text */
+    transition: filter 0.3s ease-in-out; /* Smooth transition for the blur */
+  }
+
+/* For the moon */
+.travel{
+width: 1110px;
+height: 792px;
+padding: 0;
+margin-left: 120px;
+}
+
+.contains{
+    width: 1110px;
+    height: 734px;
+}
+
+.pick{
+width: 357px;
+height:34px ;
+letter-spacing: 4px;
+text-align: left;
+color: #ffffff;
+font-family:barlow condensed, sans-serif ;
+font-weight: 400;
+font-style: normal;
+font-size: 28px;
+text-transform: uppercase;
+margin-left: 30px;
+}
+
+.numero{
+    color: #ffffff2f;
+    width: 26px;
+    height: 34px;
+    font-weight: bold;
+    letter-spacing: 4.72px;
+}
+
+.images{
+    width: 539px;
+    height: 734px;
+}
+
+.planetary{
+    width: 480px;
+    height: 480px;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.closeup{
+margin-top: -20px;
+}
+
+.traveller{
+  margin-top: -760px;
+}
+
+  .visit{
+    margin-top: -650px;
+    margin-left: 550px;
+    width: 539px;
+    height: auto;
+  }
+
+  .visual{
+width: 445px;
+height: 468px;
+  }
+
+  .shaped{
+    list-style-type: none;
+    display: flex;
+   width: 445px;
+   height: 32px;
+  }
+.shaped li{
+width: 55px;
+height: 32px;
+  display: inline-block;
+  position: relative; /* Allows positioning of the hover effect */
+  margin: 0 5px ; /* Adds spacing between items */
+text-align: center;
+}
+  .shaped li a{
+    font-family:barlow condensed, sans-serif ;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 37px;
+    height: 19px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .description{
+    width: 445px;
+    height: 110px;
+    margin-left: 40px;
+  }
+
+  .active{
+    width: 445px;
+    height: 110px;
+    font-family: bellefair;
+    color: #ffffff;
+    font-size: 96px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-style: normal;
+    margin-top: 20px;
+    margin-left: 4px;
+  }
+
+  .notes{
+width: 445px;
+height: 128px;
+font-family: barlow ;
+color:#d0d6f9 ;
+margin-top: -80px;
+line-height: 180%;
+font-size: 18px;
+margin-left: 10px;
+  }
+
+  .below{
+width: 429px;
+opacity: 25%;
+background-color: #979797;
+border-width: thin;
+margin-left: 50px;
+margin-bottom: 100px;
+margin-top: 180px;
+  }
+
+  .about{
+    width: 445px;
+    height: 61px;
+    margin-left: 50px;
+    margin-top: -60px;
+    color: #d0d6f9;
+  }
+
+  .totalDistance{
+    width: 210.5px;
+    height: 61px;
+  }
+
+  .totalTime{
+    width: 210.5px;
+    height: 61px;
+    margin-left: 200px;
+    margin-top: -79px;
+  }
+
+  .pg1{
+    width: 210.5px;
+    height: 17px;
+    font-family: barlow condensed;
+    font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  }
+  .pg2{
+    width: 210.5px;
+    height: 32px;
+    font-family: bellefair;
+    font-size: 28px;
+    margin-top: -5px;
+    text-transform: uppercase;
+  }
+  .pg3{
+    width: 210.5px;
+    height: 17px;
+    font-family: barlow condensed;
+    font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  }
+  .pg4{
+    width: 210.5px;
+    height: 32px;
+    font-family: bellefair;
+    font-size: 28px;
+    margin-top: -5px;
+    text-transform: uppercase;
+  }
+
+
+
+  .touch {
+    position: relative; /* Necessary for absolute positioning of ::after */
+    text-decoration: none; /* Remove default underline */
+}
+
+/* Initial state of the ::after (Invisible initially) */
+.touch::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0; /* Starts at width 0 */
+    height: 4px; /* Height of the underline */
+    border-bottom: 2px solid #ffffff27;
+    margin-top: 10px; /* Space above the hover underline */
+    transition: width 0.7s ease-in-out; /* Smooth transition for width */
+}
+
+/* On Hover, the underline expands to the width of the link text */
+.touch:hover::after {
+    width: 100%; /* Expands the underline to the full width of the link text */
+}
+
+
+
+.select::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+border-bottom: 2px solid #ffffff;
+  margin-top: 10px;
+  transition: width 0.3s ease-in-out;
+}
+
+
+
+  .crew-mates{
+    width: 539px;
+    height: 744px;
+padding-left: 600px;
+margin-top: 60px;
+  }
+
+  .crews {
+    width: 539.28px;
+    height:734px;
+    mask-image: linear-gradient(to bottom, rgba(47, 12, 248, 0.952) 80%, rgba(0, 0, 0, 0));
+    -webkit-mask-image: linear-gradient(to bottom, rgb(17, 0, 252) 80%, rgba(0, 0, 0, 0)); /* For Safari */
+  }
+
+.crew-details{
+  margin-top: -620px;
+  width: 539px;
+  height: 590px;
+}
+
+.crew-visual{
+width: 539px;
+height: 100%;
+}
+
+.crew-active{
+  width: 539px;
+  height: 117px;
+  color:#ffffff ;
+  text-transform: uppercase;
+}
+
+.crew-title{
+  height: 37px;
+  opacity: 50.42%;
+  mix-blend-mode: normal;
+  font-family: bellefair;
+  font-size: 32px;
+  font-weight: 200;
+}
+
+.crew-name{
+  width: 539px;
+  height: 64px;
+  font-family: bellefair;
+  font-size: 58px;
+  font-weight: 100;
+  margin-top: -10px;
+}
+
+.crew-namer
+{
+width: 555px;
+  height: 64px;
+  font-family: bellefair;
+  font-size: 58px;
+  font-weight: 100;
+  margin-top: -10px;
+}
+
+.crew-mack{
+  width: 539px;
+  height: 96px;
+  font-family: barlow;
+  font-size: 18px;
+  line-height: 180%;
+  color: #d0d6f9;
+  margin-top: 90px;
+
+}
+
+.crew-notes{
+width: 539px;
+height: 96px;
+font-family: barlow;
+font-size: 18px;
+line-height: 180%;
+color: #d0d6f9;
+margin-top: 30px;
+}
+
+.crew-nav{
+  list-style-type: none;
+  display: flex;
+  width: 539px;
+  height: 63px;
+  vertical-align: 8px;
+  color: white;
+  margin-top: -100px;
+}
+
+.crew-btn{
+width: 200px;
+height: 15px;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+}
+
+.phase{
+width: 15px;
+height: 15px;
+border-radius: 100%;
+border:none;
+background-color:#97979751;
+transition: ease-in-out 0.6s;
+
+}
+
+.phase:hover{
+  background-color:#979797c5;
+  cursor: pointer;
+}
+
+.selection{
+  width: 15px;
+  height: 15px;
+  background-color: whitesmoke;
+  border:none;
+}
+
+.vehicle-term{
+  width: 1275px;
+  height: 792px;
+  padding: 0;
+margin-left: 120px;
+}
+
+.vehicle-idea{
+width: 1275px;
+height: 600px;
+}
+
+.vehicle{
+  width: 608px;
+  height: 600px;
+padding-left: 720px;
+margin-top: 120px;
+}
+
+.space01{
+width: 608px;
+height: 600px;
+}
+
+.space02{
+  width: 530px;
+  height: 600px;
+}
+
+.space03{
+  width: 530px;
+  height: 600px;
+}
+
+.vehicle-explanation{
+width: 635px;
+height: 304px;
+margin-top: -500px;
+margin-left:100px ;
+}
+
+.vehicle-meaning{
+  width: 491px;
+  height: 301px;
+  margin-left: 60px;
+  margin-top:50px ;
+}
+
+.about-vehicle{
+width: 491px;
+height: 117px;
+}
+
+.scope{
+width: 491px;
+height: 37px;
+opacity: 50%;
+mix-blend-mode: normal;
+font-family: bellefair;
+font-style: normal;
+font-size: 32px;
+color:#ffffff ;
+text-transform: uppercase;
+font-weight: normal;
+}
+
+.scope-name{
+width: 491px;
+height: 64px;
+font-family: bellefair;
+font-size: 56px;
+color:#ffffff ;
+font-style: normal;
+font-weight: normal;
+text-transform: uppercase;
+margin-top: -20px;
+}
+
+.vehicle-talks{
+width: 491px;
+height: 160px;
+line-height: 180%;
+font-family: barlow;
+color:#d0d6f9 ;
+}
+
+.vehicle-control{
+width: 80px;
+height: 304px;
+margin-top: -320px;
+margin-left: -120px;
+}
+
+.count{
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  margin-bottom: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.199);
+  background-color: transparent;
+  color: whitesmoke;
+  font-family: bellefair;
+  font-size: 32px;
+  text-align: center;
+  transition: ease-in-out 0.6s;
+}
+
+.picker:hover{
+cursor: pointer;
+border: 1px solid white
+}
+
+.last{
+  list-style: none;
+}
+
+.activate{
+background-color:whitesmoke ;
+color: #0b0d17;
+cursor: pointer;
+}
+
+
+@media (min-width: 768px) and (min-height: 1024px){
+  .coverOne{
+    content: url(background-home-tablet.jpg);
+    width: 768px;
+    height: 1024px;
+  }
+
+.headLine{
+  display: none;
+}
+
+nav{
+width: 762px;
+height: 96px;
+margin-left: 30px;
+}
+
+.grid-container{
+  width: 100%;
+  margin-left: -10px;
+}
+
+.logo{
+width: 48px;
+height: 48px;
+margin-top: -20px;
+margin-left: -3px;
+margin-right: 20px;
+}
+
+nav ul{
+width: 640px;
+height: 96px;
+margin-left: 4px;
+margin-top: -45px;
+}
+
+
+#firstSection{
+width: 688px;
+height: 672px;
+text-align: center;
+padding: 0;
+margin-left: 120px;
+margin-top: 300px;
+}
+
+.firstText{
+width: 512px;
+height: 334px;
+margin-top: -220px;
+
+}
+
+#textTwo{
+font-size: 28px;
+letter-spacing: 4px;
+}
+
+#textOne{
+font-size: 150px;
+height: 165px;
+}
+
+#textThree{
+height: 87px;
+font-size: 18px;
+font-weight: 100 ;
+}
+
+.explore{
+margin-left: 1%;
+margin-top: 60px;
+width: 512px;
+height: 272px;
+}
+
+#explore{
+  width: 272px;
+  height: 272px;
+}
+
+br{
+  display: none;
+}
+
+.coverTwo{
+  content: url(background-destination-tablet.jpg);
+  width: 768px;
+  height: 1024px;
+}
+
+.travel{
+  width: 688px;
+  height: 848px;
+}
+
+.pick{
+width: 688px;
+height: 24px;
+margin-left: -90px;
+}
+
+.contains{
+width: 688px;
+height: 800px;
+}
+
+.images{
+  width: 688px;
+  height: 384px;
+  text-align: center;
+  margin-left: -50px;
+}
+
+.planetary{
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  padding: 0;
+}
+
+.visit{
+  width: 688px;
+  height: 384px;
+text-align: center;
+margin-top: 10px;
+margin-left: -100px;
+}
+
+.visual{
+  width: 514px;
+  height: 361px;
+}
+
+.shaped{
+margin-left: 220px;
+width: 514px;
+}
+
+.description{
+width:514px;
+height: 195px;
+}
+
+.active{
+width: 514px;
+height: 92px;
+font-size: 80px;
+margin-left: 85px;
+}
+
+.notes{
+width: 514px;
+height: 87px;
+font-size: 16.5px;
+font-weight: 300;
+margin-left: 80px;
+margin-top:-70px ;
+}
+
+.below{
+margin-top: 20px;
+margin-left: 115px;
+width: 514px;
+}
+
+.about{
+width: 514px;
+height: 61px;
+margin-left: 140px;
+}
+
+.coverThree{
+  content: url(background-crew-tablet.jpg);
+  width: 768px;
+  height: 1024px;
+}
+
+.crew-details{
+width: 512px;
+height: 305px;
+margin-top: -760px;
+text-align: center;
+}
+
+.crew-visual{
+  width: 512px;
+  height: 231px;
+}
+
+.crew-active{
+width: 512px;
+height: 90px;
+}
+
+.crew-title{
+width: 512px;
+height: 28px;
+font-size: 24px;
+}
+
+.crew-name{
+width: 512px;
+height: 46px;
+font-size: 40px;
+}
+
+.crew-notes{
+width: 512px;
+height: 117px;
+font-size: 16px;
+}
+
+.crew-nav{
+width: 512px;
+height: 10px;
+margin-top: 20px;
+margin-left: 120px;
+}
+
+.crew-mates{
+  width: 688px;
+  height: 463px;
+  margin-left: 50px;
+  margin-top: 330px;
+  padding: 0;
+}
+
+.crews{
+  width: 446.74px;
+  height: 560px;
+  margin-left: -30px;
+}
+
+.crew-mack{
+width: 512px;
+height: 117px;
+margin-top: 30px;
+font-size: 16px;
+}
+
+.crew-notes{
+width: 512px;
+height: 117px;
+font-size: 16px;
+font-weight: 100;
+}
+
+.crew-namer{
+width: 512px;
+height: 64px;
+font-size: 40px;
+}
+
+.coverFour{
+  content: url(background-technology-tablet.jpg);
+  width: 768px;
+  height: 1024px;
+}
+
+.vehicle-term{
+width: 688px;
+height: 848px;
+}
+
+.vehicle-idea{
+width: 688px;
+height: 421px;
+}
+
+.vehicle{
+  padding: 0;
+  width: 688px;
+  height: 421px;
+}
+
+.space01{
+  content:url(image-launch-vehicle-landscape.jpg) ;
+  width: 768px;
+  height: 357px;
+  margin-top: -50px;
+  margin-left: -118px;
+}
+
+.vehicle-control{
+width: 512px;
+height: 56px;
+margin-top: -400px;
+margin-left: 120px;
+}
+
+.boxer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 300px;
+}
+
+.space02{
+  content:url(image-spaceport-landscape.jpg) ;
+  width: 768px;
+  height: 357px;
+  margin-top: -50px;
+  margin-left: -118px;
+}
+
+.space03{
+  content:url(image-space-capsule-landscape.jpg) ;
+  width: 768px;
+  height: 357px;
+  margin-top: -50px;
+  margin-left: -118px;
+}
+
+.vehicle-explanation{
+width: 512px;
+height: 251px;
+margin-top: -40px;
+text-align: center;
+margin-left: -20px;
+}
+
+.about-vehicle{
+width: 512px;
+height: 90px;
+}
+
+.vehicle-talks{
+  width: 512px;
+  height: 145px;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.scope{
+width: 512px;
+height: 28px;
+font-size: 32px;
+opacity: 50.42%;
+}
+
+.scope-name{
+width: 512px;
+height: 46px;
+font-size: 56px;
+}
+
+.traveller{
+  margin-top: 10px;
+}
+
+}
+
+@media (min-width: 400px) and (min-height: 812px) {
+
+  .headLine{
+    display: none;
+  }
+
+
+.menu{
+  display: none;
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 254px;
+    height: 812px;
+    background-color: inherit; /* Matches the background color of the page */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: flex-start; /* Align items starting from the top */
+    align-items: center; /* Center items horizontally */
+    padding: 20px; /* Add padding around the menu */
+    gap: 10px; /* Add spacing between items (modern approach) */
+    transform: translateX(-100%); /* Off-screen by default */
+    z-index: 1000; /* Keep menu above other elements */
+    transition: transform 0.3s ease; /* Smooth sliding effect */
+}
+
+.hamburger-menu{
+  display: block;
+  width: 30px;
+  height: 30px;
+  color: white;
+background-color: transparent;
+border:none;
+font-size: 30px;
+margin-left: 130%;
+margin-top: 200px;
+}
+
+.close-button{
+width: 30px;
+height: 30px;
+color: rgba(255, 255, 255, 0.664);
+background-color: transparent;
+border:none;
+font-size: 50px;
+margin-top: 190px;
+margin-left: 130%;
+z-index: 1100;
+font-weight: 100;
+position: relative;
+}
+
+.menu-buttons{
+width: 187.50px;
+height: 40px;
+}
+
+.menu.visible{
+display: flex;
+transform: translateX(0);
+width: 254px;
+height: 812px;
+margin-left: 160px;
+margin-top: -42px;
+border: 1px solid rgba(255, 255, 255, 0.062);
+}
+
+
+.grid-container{
+display: block;
+margin-left: 15px;
+margin-top: 150px;
+}
+
+.menu li{
+  width: 222px;
+margin-top: 20px;
+}
+
+.home{
+  margin-left: -78px;
+  text-align: center;
+
+}
+
+.destination{
+  margin-left: -54px;
+  text-align: center;
+}
+
+.crew{
+  margin-left: -78px;
+  text-align: center;
+}
+
+.tech{
+margin-left: -53px;
+text-align: center;
+}
+
+.selected{
+border-right: 2px solid rgb(245, 245, 245);
+border-bottom: none;
+margin-left: 20px;
+height: 20px;
+margin-top: 12px;
+width: 180px;
+}
+
+.selected a{
+  margin-left: -40px;
+}
+
+.selected li{
+  margin-top: 5px;
+}
+
+.mode{
+  border-bottom: 4px solid transparent;
+}
+
+.mode:hover{
+  border-bottom: 2px solid rgba(245, 245, 245, 0);
+
+}
+
+.logo{
+  width: 40px;
+height: 40px;
+margin-top: 200px;
+margin-left: -25px;
+}
+
+
+.coverOne{
+  content: url(background-home-mobile.jpg);
+  width: 100%;
+height: 812px;
+}
+
+#firstSection{
+width: 375px;
+height: 676px;
+padding: 24px;
+}
+
+.firstText{
+width: 327px;
+height: 294px;
+}
+
+#textOne{
+width: 327px;
+height: 98px;
+font-size: 80px;
+text-align: center;
+margin-top: 30px;
+}
+
+#textTwo{
+  width: 327px;
+  height: 19px;
+  text-align: center;
+  font-size: 16px;
+}
+
+#textThree{
+width: 327px;
+height: 125px;
+font-size: 15px;
+line-height: 180%;
+margin-top: -50px;
+font-weight: 100;
+text-align:center;
+}
+
+br{
+  display: none;
+}
+
+.explore{
+width: 327px;
+height: 382px;
+margin-left: 10px;
+align-items: center;
+margin-top: 30px;
+}
+
+#explore{
+width: 144px;
+height: 144px;
+font-size: 18px;
+text-align: center;
+}
+
+.coverTwo{
+  content: url(background-destination-mobile.jpg);
+  width: 100%;
+height: 812px;
+}
+
+.pick{
+width: 327px;
+height: 19px;
+text-align: center;
+font-size: 16px;
+margin-top: 30px;
+}
+
+.travel{
+width: 375px;
+height: 690px;
+margin: 0;
+text-align: center;
+}
+
+.contains{
+width: 327px;
+height: 701px;
+}
+
+.images{
+width: 327px;
+height: 203px;
+margin-top: -60px;
+}
+
+.planetary{
+width: 150px;
+height: 150px;
+text-align: center;
+margin-left: 100px;
+}
+
+.visit{
+width: 327px;
+height: 466px;
+text-align: center;
+margin-left:20px;
+margin-top: 150px;
+}
+
+.shaped{
+width: 327px;
+height: 32px;
+margin-top: -80px;
+margin-left: 20px;
+text-align: center;
+}
+
+.description{
+width: 327px;
+height: 215px;
+}
+
+.active{
+width: 327px;
+height: 64px;
+font-size: 56px;
+text-align: center;
+margin-left: -2px;
+}
+
+.notes{
+width: 327px;
+height: 135px;
+font-size: 15px;
+line-height: 180%;
+margin-top: -40px;
+text-align: center;
+margin-left: -20px;
+}
+
+.below{
+margin-top: 20px;
+width: 327px;
+margin-left: 20px;
+}
+
+.about{
+width: 327px;
+height: 146px;
+}
+
+.totalDistance{
+width: 327px;
+height: 61px;
+margin-left: -30px;
+}
+
+.totalTime{
+width: 327px;
+height: 61px;
+margin-left: -30px;
+}
+
+.pg1{
+width: 327px;
+height: 17px;
+font-size: 14px;
+text-align: center;
+margin-top: -80px;
+}
+
+.pg2{
+width: 327px;
+height: 32px;
+font-size: 28px;
+}
+
+.pg3{
+width: 327px;
+height: 17px;
+font-size:14px;
+letter-spacing: 2px;
+text-align: center;
+margin-top:85px ;
+}
+
+.pg4{
+width: 327px;
+height: 32px;
+font-size: 28px;
+text-align: center;
+}
+
+.closeup{
+margin-top: 100px;
+}
+.traveller{
+  margin-top: 150px;
+}
+
+.coverThree{
+  content: url(background-crew-mobile.jpg);
+  width: 100%;
+height: 812px;
+}
+
+.crew-details{
+  width: 327px;
+  height: 319px;
+  margin-top: -660px;
+}
+
+.crew-visual{
+width: 327px;
+height: 245px;
+}
+
+.crew-active{
+width: 327px;
+height: 57px;
+}
+
+.crew-title{
+  width:327px;
+  height: 21px;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.crew-name{
+width: 327px;
+height: 28px;
+font-size: 24px;
+text-align: center;
+margin-left: 40px;
+}
+
+.crew-notes{
+width: 327px;
+height: 164px;
+font-size: 16px;
+line-height: 180%;
+text-align: center;
+font-weight: 100;
+margin-left: 40px;
+}
+
+.crew-mack{
+  width: 327px;
+  height: 164px;
+  font-size: 16px;
+  line-height: 180%;
+  text-align: center;
+  font-weight: 100;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+.crew-nav{
+width: 327px;
+height: 10px;
+margin-top: 10px;
+margin-left: 70px;
+text-align: center;
+}
+
+.phase{
+  width: 10px;
+  height: 10px;
+}
+
+.crew-mates{
+width: 327px;
+height: 350px;
+margin-left:-540px ;
+margin-top: 320px;
+}
+
+.crews{
+width: 271.24px;
+height: 340px;
+}
+
+.mack{
+margin-left: -50px;
+}
+
+.contains{
+height: 352px;
+}
+
+.contains-extra{
+width: 327px;
+height:300px ;
+}
+
+.pilot{
+margin-top: 20px;
+margin-left: -20px;
+}
+
+.pilot-note{
+  margin-top: 45px;
+}
+
+.crew-namer{
+  width: 327px;
+  height: 28px;
+  font-size: 24px;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.engine{
+margin-top: 10px;
+}
+
+.coverFour{
+  content: url(background-technology-mobile.jpg);
+  width: 100%;
+  height: 812px;
+}
+
+.vehicle-term{
+  width: 375px;
+  height: 690px;
+  margin: 0;
+  text-align: center;
+}
+
+.vehicle-idea{
+width: 327px;
+height: 550px;
+}
+
+.vehicle{
+width: 327px;
+height: 322px;
+margin-top: 110px;
+margin-left: 40px;
+}
+
+.space01{
+width: 150%;
+height: 258px;
+margin-left: -1400px;
+margin-top: -60px;
+}
+
+.vehicle-explanation{
+width: 327px;
+height: 260px;
+margin-top: 100px;
+margin-left: -80px;
+}
+
+.vehicle-meaning{
+width: 327px;
+height: 243px;
+}
+
+.about-vehicle{
+width: 327px;
+height: 65px;
+}
+
+.scope{
+  width: 327px;
+  height: 21px;
+opacity: 50.42%;
+font-size: 18px;
+text-align: center;
+margin-top: -130px;
+margin-left: 65px;
+}
+
+.scope-name{
+  width: 327px;
+  height: 28px;
+  font-size: 24px;
+  text-align: center;
+  margin-left: 65px;
+  margin-top: 10px;
+}
+
+.vehicle-control{
+  width: 327px;
+  height: 40px;
+  margin-top: -310px;
+  text-align: center;
+  margin-left: 140px;
+}
+
+.boxer{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+width: 200px;
+height: 40px;;
+align-items: center;
+}
+
+.count{
+width: 40px;
+height: 40px;
+font-size: 18px;
+}
+
+.vehicle-talks{
+width: 327px;
+height: 162px;
+text-align: center;
+font-size: 15px;
+line-height: 180%;
+margin-left: 65px;
+font-size: 100;
+}
+
+.space02{
+  width: 150%;
+  height: 258px;
+  margin-left: -1400px;
+  margin-top: -60px;
+}
+
+.space03{
+width: 150%;
+height: 258px;
+margin-left: -1400px;
+margin-top: -60px;
+}
+
+}
+
+
